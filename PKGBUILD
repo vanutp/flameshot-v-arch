@@ -46,20 +46,20 @@
 
 
 
-pkgname=flameshot-git
+pkgname=flameshot-v
 _pkgname=flameshot
-pkgver=r1420.ec70df10
+pkgver=r1420_v.29564a5
 pkgrel=1
 pkgdesc="Powerful yet simple to use screenshot software"
 arch=('i686' 'x86_64')
-url="https://github.com/flameshot-org/flameshot"
+url="https://github.com/vanutp/flameshot"
 license=('GPL')
 depends=(qt5-base hicolor-icon-theme qt5-svg)
 makedepends=(qt5-tools git cmake)
 optdepends=('xdg-desktop-portal: To make Sway and wlroots work'
             'xdg-desktop-portal-wlr: To make Sway and wlroots work'
             'grim: To make Sway and wlroots work')
-provides=(flameshot-git)
+provides=(flameshot-v)
 conflicts=(flameshot)
 source=("git+https://github.com/flameshot-org/flameshot.git")
 md5sums=('SKIP')
