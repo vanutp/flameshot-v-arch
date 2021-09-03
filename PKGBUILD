@@ -48,7 +48,7 @@
 
 pkgname=flameshot-v
 _pkgname=flameshot
-pkgver=r1420_v.29564a5
+pkgver=r1420.ec70df10
 pkgrel=1
 pkgdesc="Powerful yet simple to use screenshot software"
 arch=('i686' 'x86_64')
@@ -61,7 +61,7 @@ optdepends=('xdg-desktop-portal: To make Sway and wlroots work'
             'grim: To make Sway and wlroots work')
 provides=(flameshot-v)
 conflicts=(flameshot)
-source=("git+https://github.com/flameshot-org/flameshot.git")
+source=("git+https://github.com/vanutp/flameshot.git")
 md5sums=('SKIP')
 
 pkgver() {
